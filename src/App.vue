@@ -1,17 +1,12 @@
 <template>
-  <div>
-      <h1>我是App组件</h1>
-      <router-view></router-view>
-      <DatePicker></DatePicker>
-  </div>
+    <router-view></router-view>
 </template>
 
 <script>
 export default {
-
-}
+};
 </script>
 
-<style>
+<style lang="less" scoped>
 
 </style>
